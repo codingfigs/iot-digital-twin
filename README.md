@@ -137,36 +137,12 @@
 
 ## 💻 Installation
 
-### Option 1: Windows Installer (Recommended)
+### Windows Installer (Recommended)
 
-1. Download `IoTDigitalTwin_Setup_v1.0.0.exe` from [Releases](../../releases)
+1. Download `IoTDigitalTwin_Setup_v1.0.0.exe` from [Releases](https://github.com/codingfigs/iot-digital-twin/releases/tag/v1.0.0)
 2. Run the installer
 3. Accept the disclaimer
 4. Launch the application
-
-### Option 2: Run from Source
-
-```bash
-# Clone the repository
-git clone https://github.com/yourusername/iotwin.git
-cd iotwin
-
-# Install dependencies
-pip install -r requirements.txt
-
-# Run the application
-python main.py
-```
-
-### Option 3: Build from Source
-
-```bash
-# Install dependencies
-pip install -r requirements.txt
-
-# Build EXE and installer
-build.bat
-```
 
 **Requirements:**
 - Python 3.8+
@@ -252,49 +228,14 @@ build.bat
 ### Latest Release: v1.0.0
 
 **Windows Installer:**
-- [IoTDigitalTwin_Setup_v1.0.0.exe](../../releases/download/v1.0.0/IoTDigitalTwin_Setup_v1.0.0.exe) (Recommended)
+- [IoTDigitalTwin_Setup_v1.0.0.exe](https://github.com/codingfigs/iot-digital-twin/releases/download/v1.0.0/IoTDigitalTwin_Setup_v1.0.0.exe) (Recommended)
 
 **Portable Version:**
-- [IoTDigitalTwin.exe](../../releases/download/v1.0.0/IoTDigitalTwin.exe) (No installation required)
+- [IoTDigitalTwin.exe](https://github.com/codingfigs/iot-digital-twin/releases/download/v1.0.0/IoTDigitalTwin.exe) (No installation required)
 
 **Source Code:**
-- [Source code (zip)](../../archive/refs/tags/v1.0.0.zip)
-- [Source code (tar.gz)](../../archive/refs/tags/v1.0.0.tar.gz)
-
----
-
-## 🏗️ Project Structure
-
-```
-iotwin/
-├── main.py                      # Application entry point
-├── requirements.txt             # Python dependencies
-├── LICENSE.txt                  # MIT License
-├── README.md                    # This file
-├── TRAINING_GUIDE.md            # Training curriculum
-├── build.bat                    # Build script
-├── iotwin.spec                  # PyInstaller spec
-├── setup.iss                    # Inno Setup script
-├── version_info.txt             # Version information
-├── core/                        # Core simulation engine
-│   ├── circuit_engine.py        # Circuit logic
-│   ├── circuit_solver.py        # SPICE-level calculations
-│   ├── circuit_templates.py     # 30 circuit templates
-│   ├── circuit_documentation.py # Educational content
-│   ├── sensor_simulator.py      # Sensor data generation
-│   ├── data_analytics.py        # Statistical analysis
-│   ├── report_exporter.py       # Export functionality
-│   └── templates.py             # Component library
-├── gui/                         # User interface
-│   ├── main_window.py           # Main application window
-│   ├── circuit_designer.py      # Visual circuit board
-│   ├── circuit_monitor.py       # Control panel & monitors
-│   ├── visualization_panel.py   # Real-time plots
-│   ├── dashboard.py             # Statistics dashboard
-│   └── themes.py                # UI themes
-└── resources/                   # Resources
-    └── templates/               # Template files
-```
+- [Source code (zip)](https://github.com/codingfigs/iot-digital-twin/archive/refs/tags/v1.0.0.zip)
+- [Source code (tar.gz)](https://github.com/codingfigs/iot-digital-twin/archive/refs/tags/v1.0.0.tar.gz)
 
 ---
 
